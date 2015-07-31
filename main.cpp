@@ -5,7 +5,7 @@ int main()
 {
 
     tmx::MapLoader tl("assets/");
-    tl.Load("map.tmx");
+    tl.Load("world.tmx");
 
     sf::RenderWindow window(sf::VideoMode(tl.GetMapSize().x, tl.GetMapSize().y), "GameWindow");
 
